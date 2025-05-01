@@ -1,4 +1,4 @@
-Package: MATH4753Tuan2025
+Package: MATH4753nguy06282025
 Type: Package
 Title: MATH4753 Lab Functions
 Version: 0.1.0
@@ -14,3 +14,8 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 3.5)
