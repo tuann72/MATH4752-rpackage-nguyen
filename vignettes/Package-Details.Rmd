@@ -1,0 +1,35 @@
+---
+title: "High Level Overview of What this Package Contains"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{High Level Overview of What this Package Contains}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753nguy06282025)
+```
+
+# Example Usage of Functions
+
+# Function Details
+
+## Lab1_quickBox
+## Lab2_zScore
+## Lab3_quickPlot
+## Lab4_fitVsResPlot
+## Lab5_mybin
+## Lab6_myncurve
+## Lab8_mycltb
+## myboot2
+## mymaxlik
+## project1_ntickets
+
