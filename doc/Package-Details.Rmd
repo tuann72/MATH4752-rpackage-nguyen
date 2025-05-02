@@ -1,0 +1,90 @@
+---
+title: "High Level Overview of What this Package Contains"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{High Level Overview of What this Package Contains}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(MATH4753nguy06282025)
+```
+
+# Example Usage of Functions
+
+```{r}
+set.seed(123)
+values <- sample(1:100, 15, replace = TRUE)
+```
+
+## Example 1
+```{r}
+Lab1_quickBox(values)
+```
+## Example 2
+```{r}
+Lab2_zScore(values)
+```
+## Example 3
+```{r}
+dat <- data.frame(fire)
+Lab4_fitVsResPlot(dat, dat$DISTANCE, dat$DAMAGE)
+```
+## Example 4
+```{r}
+myboot2(x=values)
+```
+
+# Function Details
+
+## Lab1_quickBox
+
+A boxplot function that accepts values.
+
+## Lab2_zScore
+
+Finds z-scores for values.
+
+## Lab3_quickPlot
+
+Returns a line plot (with steelblue!)
+
+## Lab4_fitVsResPlot
+
+Creates residual vs fitted plot with a linear model.
+
+## Lab5_mybin
+
+Creates a barplot displaying relative frequency.
+
+## Lab6_myncurve
+
+Creates a density plot using dnorm given a mean and standard deviation
+
+## Lab8_mycltb
+
+Density plot with central limit theorem.
+
+## myboot2
+
+Creates a bootstrap density plot with confidence intervals.
+
+## mymaxlik
+
+Findings maximum likelihood.
+
+## project1_ntickets
+
+Calculates the number of tickets to be sold when the number of seats in the flight.
+
+# Data Details
+## Fire
+A data set collected containing fire DAMAGE and DISTANCE from fire stations.
